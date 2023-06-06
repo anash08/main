@@ -1,0 +1,58 @@
+{
+  "name": "keyboard",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.8",
+    "@emotion/styled": "^11.10.8",
+    "@joebobmiles/pointer-events-polyfill": "^1.0.0-alpha.1",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.12.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "agora-react-uikit": "^1.2.0",
+    "agora-rtc-sdk": "^3.6.11",
+    "agora-rtc-sdk-ng": "^4.17.2",
+    "axios": "^1.4.0",
+    "eruda": "^3.0.0",
+    "iink-js": "^1.4.1",
+    "mathjax": "^3.2.2",
+    "mathjax-node": "^2.1.1",
+    "mui": "^0.0.1",
+    "qrcode.react": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-katex": "^3.0.1",
+    "react-latex": "^2.0.0",
+    "react-mathquill": "^1.0.3",
+    "react-scripts": "5.0.1",
+    "socket.io-client": "^4.6.2",
+    "util": "^0.12.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

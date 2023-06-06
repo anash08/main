@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',Arial,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100vw; /* Set width to 100% of viewport width */
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.math-keyboard {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.keys-container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 50px;
+  max-width: 100px; /* Set a maximum width for the container */
+  word-break: break-word; /* Break words onto the next line when the max-width is exceeded */
+  min-width: 8ch; 
+}
+
+.key {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.key:hover {
+  background-color: #e0e0e0;
+}
+.container {
+  max-width: 100px; /* Set a maximum width for the container */
+  word-break: break-word; /* Break words onto the next line when the max-width is exceeded */
+  min-width: 10ch; /* Set a minimum width of 20 characters per line */
+}
+
