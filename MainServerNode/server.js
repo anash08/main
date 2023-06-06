@@ -4,7 +4,7 @@ const http = require('http').createServer(app);
 const WebSocket = require('ws');
 const path = require('path');
 
-const staticPath = process.env.STATIC_PATH || '/home/user/WEB/KeyboardApp/MainReactAppMath/build';
+const staticPath = process.env.STATIC_PATH || 'MainReactAppMath/build';
 const indexPath = path.join(staticPath, 'index.html');
 
 app.use(express.static(staticPath));
